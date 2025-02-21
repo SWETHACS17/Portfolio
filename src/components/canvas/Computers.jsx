@@ -21,18 +21,19 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
 
-      <pointLight intensity={1} />
+      <pointLight intensity={1} position={[0, -1, 0]}/>
 
       {/* New Large Area Light for Table */}
       <rectAreaLight
-        width={8}
-        height={8}
+        width={6}
+        height={6}
         intensity={2}
         color={"#ffffff"}
         position={[0, -2, 5.6]}
         lookAt={[1, -8, 40]}
         castShadow
       />
+
       <rectAreaLight
         width={8}
         height={8}
@@ -50,8 +51,8 @@ const Computers = ({ isMobile }) => {
 
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.62}
-        position={isMobile ? [-6.5, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.35 : 0.65}
+        position={isMobile ? [0, -2.5, -0.5] : [0, -2.90, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -78,7 +79,7 @@ const ComputersCanvas = () => {
       frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: isMobile ? 35 : 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

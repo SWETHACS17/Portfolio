@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Designer and Editor",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Team Player",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "great Communicator",
       icon: creator,
     },
   ];
@@ -116,18 +116,20 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Messenger-app developer",
+      company_name: "Personal",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "December 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a responsive real-time messenger application using React.js and Firebase.",
+        "Implemented a user-friendly interface with Material-UI for styling and seamless user interaction.",
+        "Configured Firebase Firestore for real-time database functionality, enabling instant messages",
+        "Deployed the application using Firebase Hosting for fast and secure delivery",
+        "Ensured a dynamic user experience by incorporating features like username prompts , and real-time UI updates. "
       ],
-    },
+    }
+    ,
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -167,7 +169,9 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
   ];
+  
   
   const testimonials = [
     {
@@ -195,6 +199,7 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+  
   
   const projects = [
     {
