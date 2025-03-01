@@ -32,15 +32,18 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* 3D PC Model */}
-      <ComputersCanvas />
+      {/* 3D PC Model - Added custom height for better mobile responsiveness */}
+      <div className="absolute inset-0 top-[50px] sm:h-[550px] h-[350px]">
+        <ComputersCanvas />
+      </div>
 
-      {/* Responsive Scroll Animation */}
+      {/* Responsive Scroll Animation - Adjusted positioning for better visibility on mobile */}
       <div 
         className={`
           absolute w-full flex justify-center items-center
-          sm:bottom-0 bottom-4
+          bottom-32 sm:bottom-10
           transition-all duration-300 ease-in-out
+          z-10
         `}
       >
         <a

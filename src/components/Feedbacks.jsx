@@ -37,6 +37,11 @@ const FeedbackCard = ({index,testimonial,name,designation,company,image}) => (
 );
 
 const Feedbacks = () => {
+  // Return empty section if no testimonials
+  if (!testimonials || testimonials.length === 0) {
+    return null;
+  }
+
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div

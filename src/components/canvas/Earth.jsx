@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -13,6 +13,24 @@ const Earth = () => {
 };
 
 const EarthCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if it's a mobile device
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+    
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <Canvas
       shadows
@@ -30,6 +48,8 @@ const EarthCanvas = () => {
         <OrbitControls
           autoRotate
           enableZoom={false}
+          enablePan={false} // Disable panning
+          enableRotate={!isMobile} // Disable rotation on mobile
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
