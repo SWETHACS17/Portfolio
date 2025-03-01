@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import Python from "./tech/Python.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -16,10 +16,21 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import Java from "./tech/Java.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import cpp from "./tech/cpp.png";
+import MySQL from "./tech/MySQL.png";
+import Vite from "./tech/Vite.png";
+import MaterialUI from "./tech/MaterialUI.png";
+import FireStore from "./tech/FireStore.png";
+import GitHub from "./tech/GitHub.png";
+import MATLAB from "./tech/MATLAB.png";
 import threejs from "./tech/threejs.svg";
+import Linux from "./tech/Linux.png";
+import VScode from "./tech/VScode.png";
+import Eclipse from "./tech/Eclipse.png";
+import Codeblocks from "./tech/Codeblocks.png";
+import Canva from "./tech/Canva.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,24 +50,35 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
   javascript,
-  mongodb,
-  nodejs,
+  html,
+  css,
   reactjs,
-  redux,
   tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
+  Python,
+  Java,
+  cpp,
+  MySQL,
+  Vite,
+  MaterialUI,
+  FireStore,
+  GitHub,
+  MATLAB,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  Linux,
+  VScode,
+  Eclipse,
+  Codeblocks,
+  Canva,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  threejs,
+  meta,
+  shopify,
+  tesla,
 };

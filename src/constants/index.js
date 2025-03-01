@@ -4,25 +4,36 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
+  Python,
+  Java,
+  cpp,
+  MySQL,
+  Vite,
+  MaterialUI,
+  FireStore,
+  GitHub,
+  MATLAB,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
+  Linux,
+  VScode,
+  Eclipse,
+  Codeblocks,
+  Canva,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  meta,
+  shopify,
+  tesla,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +53,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Developer",
+    title: "Creative",
     icon: web,
   },
   {
-    title: "Designer and Editor",
+    title: "Resilience",
     icon: mobile,
   },
   {
-    title: "Team Player",
+    title: "Collaborative",
     icon: backend,
   },
   {
-    title: "great Communicator",
+    title: "Eloquent",
     icon: creator,
   },
 ];
@@ -73,20 +84,48 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Python",
+    icon: Python,
+  },
+  {
+    name: "Java",
+    icon: Java,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
+  {
+    name: "MySQL",
+    icon: MySQL,
+  },
+  {
+    name: "Vite",
+    icon: Vite,
+  },
+  {
+    name: "Material UI",
+    icon: MaterialUI,
+  },
+  {
+    name: "FireStore",
+    icon: FireStore,
+  },
+  {
+    name: "GitHub",
+    icon: GitHub,
+  },
+  {
+    name: "MATLAB",
+    icon: MATLAB,
   },
   {
     name: "Node JS",
@@ -109,9 +148,26 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Linux",
+    icon: Linux,
   },
+  {
+    name: "VScode",
+    icon: VScode,
+  },
+  {
+    name: "Eclipse",
+    icon: Eclipse,
+  },
+  {
+    name: "Codeblocks",
+    icon: Codeblocks,
+  },
+  {
+    name: "Canva",
+    icon: Canva,
+  },
+
 ];
 
 const experiences = [
