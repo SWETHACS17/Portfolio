@@ -25,7 +25,7 @@ import MaterialUI from "./tech/MaterialUI.png";
 import FireStore from "./tech/FireStore.png";
 import GitHub from "./tech/GitHub.png";
 import MATLAB from "./tech/MATLAB.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import Linux from "./tech/Linux.png";
 import VScode from "./tech/VScode.png";
 import Eclipse from "./tech/Eclipse.png";
