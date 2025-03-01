@@ -36,13 +36,13 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* Responsive Scroll Animation */}
-      <div 
-        className={`
-          absolute w-full flex justify-center items-center
-          sm:bottom-10 lg:bottom-1
-          transition-all duration-300 ease-in-out
-        `}
-      >
+<div 
+  className="
+    absolute w-full flex justify-center items-center
+     sm:bottom-10 lg:bottom-1
+    transition-all duration-300 ease-in-out
+  "
+>
         <a
           href="#about"
           onClick={scrollToAbout}
