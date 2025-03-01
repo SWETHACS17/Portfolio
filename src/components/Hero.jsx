@@ -39,7 +39,7 @@ const Hero = () => {
       <div 
         className={`
           absolute w-full flex justify-center items-center
-          sm:bottom-0 bottom-4
+          sm:bottom-2 bottom-4
           transition-all duration-300 ease-in-out
         `}
       >
