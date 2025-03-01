@@ -36,10 +36,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import black from "./company/black.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import supplychainmanagement from "./supplychainmanagement.jpg";
 
 export {
   logo,
@@ -73,6 +74,8 @@ export {
   Eclipse,
   Codeblocks,
   Canva,
+  supplychainmanagement,
+  black,
   starbucks,
   carrent,
   jobit,

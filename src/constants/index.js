@@ -26,6 +26,8 @@ import {
   Eclipse,
   Codeblocks,
   Canva,
+  supplychainmanagement,
+  black,
   starbucks,
   carrent,
   jobit,
@@ -174,7 +176,7 @@ const experiences = [
   {
     title: "Messenger-app developer",
     company_name: "Personal",
-    icon: starbucks,
+    icon: black,
     iconBg: "#383E56",
     date: "December 2024",
     points: [
@@ -262,27 +264,27 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Supply Chain Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed and implemented a graph data structure for supply chain modeling. Developed traversal methods to optimize routes and improve efficiency. Enhanced decision-making with advanced network analysis. Optimized costs and ensured smooth operations.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Data Structures",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Graph Algorithms",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: supplychainmanagement,
+    source_code_link: "https://github.com/deepthakp/dsa",
   },
-  {
+  /* {
     name: "Job IT",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
@@ -324,6 +326,7 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  */
 ];
 
 export { services, technologies, experiences, testimonials, projects };
