@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* 3D PC Model - Added custom height for better mobile responsiveness */}
-      <div className="absolute inset-0 top-[50px] sm:h-[550px] h-[350px]">
+      <div className="absolute inset-0 top-[20px] sm:h-[550px] h-[350px]">
         <ComputersCanvas />
       </div>
 
