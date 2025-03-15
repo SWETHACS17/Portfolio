@@ -29,7 +29,7 @@ const Navbar = () => {
   {/* Resume Button */}
   <button
     onClick={() =>
-      window.open("https://drive.google.com/file/d/1OM_siq8njYeRDUgyl8rjhOfqOxKHFRU_/view", "_blank", "noopener,noreferrer") // Replace with your actual resume link
+      window.open("https://drive.google.com/file/d/1_G3yRTL4u6P6qudfVep-soXJ50xgbWdM/view?usp=sharing", "_blank", "noopener,noreferrer") // Replace with your actual resume link
     }
     className="ml-2 px-3 py-1 text-[14px] font-medium text-secondary border border-secondary rounded-md transition-all duration-200 hover:font-semibold"
   >
