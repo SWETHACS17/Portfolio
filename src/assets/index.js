@@ -38,6 +38,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import black from "./company/black.png";
 import carrent from "./carrent.png";
+import metatroncube from "./company/metatroncube.jpeg";
+import zidio from "./company/zidio.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import supplychainmanagement from "./supplychainmanagement.jpg";
@@ -76,6 +78,8 @@ export {
   Canva,
   supplychainmanagement,
   black,
+  metatroncube,
+  zidio,
   starbucks,
   carrent,
   jobit,

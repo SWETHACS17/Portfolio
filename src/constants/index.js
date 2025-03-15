@@ -28,8 +28,8 @@ import {
   Canva,
   supplychainmanagement,
   black,
-  starbucks,
-  carrent,
+  metatroncube,
+  zidio,
   jobit,
   tripguide,
   threejs,
@@ -187,34 +187,32 @@ const experiences = [
       "Ensured a dynamic user experience by incorporating features like username prompts , and real-time UI updates. "
     ],
   }
-  /*
+ 
   ,
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer | Intern",
+    company_name: "MetatronCube Software Solutions",
+    icon: metatroncube,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2025 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhancing a restaurant management system using the Frappe framework and JavaScript, with a focus on improving UI/UX and system integration.",
+      "Collaborating with the team to optimize web applications for better performance and usability.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer | Intern",
+    company_name: "Zidio Developement",
+    icon: zidio,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "feb 2025 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gaining expertise in full-stack development (MERN) by improving skills in frontend (React.js), backend technologies, and database management.",
+      "Developing responsive and scalable web applications by following best practices, optimizing performance, and ensuring a smooth user experience.",
     ],
   },
+
+/*
   {
     title: "Full stack Developer",
     company_name: "Meta",
@@ -282,7 +280,7 @@ const projects = [
       },
     ],
     image: supplychainmanagement,
-    source_code_link: "https://github.com/deepthakp/dsa",
+    source_code_link: "https://github.com/SWETHACS17/DSA/tree/main",
   },
   /* {
     name: "Job IT",

@@ -78,6 +78,16 @@ const Hero = () => {
           ">
             Scroll Down
           </span>
+          {/* "Click Here" for mobile view */}
+         <span className="
+           absolute -top-5 left-1/2 -translate-x-1/2
+           text-secondary text-xs whitespace-nowrap
+           opacity-100 sm:opacity-0
+           ">
+            Click Here!
+           </span>
+           
+         
         </a>
       </div>
     </section>
