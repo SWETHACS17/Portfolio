@@ -32,6 +32,7 @@ import {
   zidio,
   jobit,
   tripguide,
+  messenger,
   threejs,
   meta,
   shopify,
@@ -173,7 +174,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
+ /* {
     title: "Messenger-app developer",
     company_name: "Personal",
     icon: black,
@@ -186,14 +187,12 @@ const experiences = [
       "Deployed the application using Firebase Hosting for fast and secure delivery",
       "Ensured a dynamic user experience by incorporating features like username prompts , and real-time UI updates. "
     ],
-  }
- 
-  ,
+  },*/
   {
     title: "Frontend Developer | Intern",
     company_name: "MetatronCube Software Solutions",
     icon: metatroncube,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Mar 2025 - present",
     points: [
       "Enhancing a restaurant management system using the Frappe framework and JavaScript, with a focus on improving UI/UX and system integration.",
@@ -204,7 +203,7 @@ const experiences = [
     title: "Web Developer | Intern",
     company_name: "Zidio Developement",
     icon: zidio,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "feb 2025 - present",
     points: [
       "Gaining expertise in full-stack development (MERN) by improving skills in frontend (React.js), backend technologies, and database management.",
@@ -282,27 +281,28 @@ const projects = [
     image: supplychainmanagement,
     source_code_link: "https://github.com/SWETHACS17/DSA/tree/main",
   },
-  /* {
-    name: "Job IT",
+   {
+    name: "Messenger App Sea_The_Text",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a responsive real-time messenger app using React.js and Firebase with a user-friendly Material-UI interface. Configured Firebase Firestore for instant messaging and deployed with Firebase Hosting for fast, secure access. Added dynamic features like username prompts and real-time UI updates for a smooth user experience. Ensured high performance with real-time data synchronization and an intuitive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Material-UI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "fireStore",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: messenger,
+    source_code_link: "https://github.com/SWETHACS17/Sea-The-Text-Messenger-App",
   },
+  /*
   {
     name: "Trip Guide",
     description:

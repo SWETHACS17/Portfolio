@@ -42,6 +42,7 @@ import metatroncube from "./company/metatroncube.jpeg";
 import zidio from "./company/zidio.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import messenger from "./messenger.jpeg";
 import supplychainmanagement from "./supplychainmanagement.jpg";
 
 export {
@@ -83,6 +84,7 @@ export {
   starbucks,
   carrent,
   jobit,
+  messenger,
   tripguide,
   threejs,
   meta,
