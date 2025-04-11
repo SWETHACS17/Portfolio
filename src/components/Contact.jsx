@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -7,11 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//template_j29770g
-//service_riq0kjs
-//R4_0hbk3gM7IFfi3E
 const Contact = () => {
   const formRef = useRef();
+  const canvasRef = useRef();
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,6 +17,30 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  
+  // Function to make the canvas pointer events work correctly on mobile
+  useEffect(() => {
+    const handleTouchStart = (e) => {
+      // If we're on a small screen, prevent the canvas from capturing touch events
+      if (window.innerWidth < 768) {
+        // Allow scrolling by not preventing default behavior
+        return true;
+      }
+    };
+    
+    // Get the canvas container element
+    const canvasContainer = canvasRef.current;
+    
+    if (canvasContainer) {
+      // Add touch event listeners
+      canvasContainer.addEventListener('touchstart', handleTouchStart, { passive: true });
+      
+      // Clean up event listeners
+      return () => {
+        canvasContainer.removeEventListener('touchstart', handleTouchStart);
+      };
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -126,8 +148,10 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
+        ref={canvasRef}
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] touch-auto'
+        style={{ touchAction: 'auto' }}
       >
         <EarthCanvas />
       </motion.div>
