@@ -42,6 +42,8 @@ import metatroncube from "./company/metatroncube.jpeg";
 import zidio from "./company/zidio.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mazegame  from "./mazegame.png";
+import complaintManagementSystem from "./complaintmanagementSystem.png";
 import messenger from "./messenger.jpeg";
 import supplychainmanagement from "./supplychainmanagement.jpg";
 
@@ -85,6 +87,8 @@ export {
   carrent,
   jobit,
   messenger,
+  mazegame,
+  complaintManagementSystem,
   tripguide,
   threejs,
   meta,
