@@ -50,7 +50,7 @@ import supplychainmanagement from "./supplychainmanagement.jpg";
 import treasureHuntMaze from "./treasureHuntMaze.png";
 import smartSensingWithEdge from "./smartSensingWithEdge.png";
 import eventManagementSystem from "./eventManagementSystem.png";
-import complaintManagementSystem from "./complaintManagementSystem.png";
+
 
 export {
   logo,
@@ -98,7 +98,6 @@ export {
   jobit,
   messenger,
   mazegame,
-  complaintManagementSystem,
   tripguide,
   threejs,
   meta,

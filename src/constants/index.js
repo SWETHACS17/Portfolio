@@ -34,7 +34,6 @@ import {
   tripguide,
   mazegame,
   messenger,
-  complaintManagementSystem,
   threejs,
   ymi,
   treasureHuntMaze,
