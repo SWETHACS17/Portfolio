@@ -277,6 +277,8 @@ const projects = [
     image: eventManagementSystem,
     source_code_link: "https://github.com/SWETHACS17/event-proposal-app",
   },
+   
+
    {
     name: "Smart Sensing with Edge Computing",
     description:
@@ -298,29 +300,29 @@ const projects = [
     image: smartSensingWithEdge,
     source_code_link: "https://github.com/SWETHACS17/Smart_Sensing_with_Edge_Computing-FRONTEND",
   },
-
-  {
-    name: "Messenger App Sea_The_Text",
+   {
+    name: "Complaint-Management-System",
     description:
-      "Developed a responsive real-time Messenger App using React.js and Firebase with a user-friendly Material-UI interface. Configured Firebase Firestore for instant messaging and deployed with Firebase Hosting for fast, secure access. Added dynamic features like username prompts and real-time UI updates for a smooth user experience. Ensured high performance with real-time data synchronization and an intuitive design.",
+      "A simple complaint management system built with Next.js, MongoDB,Cloudinary and Tailwind CSS. With features like user authentication, complaint submission, and complaints dashboard for managing/deleting complaints. The system allows users to submit complaints with image description attached to their complaints if needed.",
     tags: [
       {
-        name: "react",
+        name: "Next.js, Tailwind CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "Material-UI",
+        name: "Cloudinary",
         color: "green-text-gradient",
       },
       {
-        name: "fireStore",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: messenger,
-    source_code_link: "https://github.com/SWETHACS17/Sea-The-Text-Messenger-App",
+    image: complaintManagementSystem,
+    source_code_link: "https://github.com/SWETHACS17/Complaint-Management-System",
   },
-   {
+  
+  {
     name: "Supply Chain Management",
     description:
       "Designed and implemented a graph data structure for supply chain modeling. Used best traversal methods to optimize routes and improve efficiency. Enhanced decision-making with advanced network analysis. Optimized the travel cost, ensured smooth operations.",
@@ -341,27 +343,26 @@ const projects = [
     image: supplychainmanagement,
     source_code_link: "https://github.com/SWETHACS17/DSA/tree/main",
   },
-  
-    {
-    name: "Complaint-Management-System",
+  {
+    name: "Messenger App Sea_The_Text",
     description:
-      "A simple complaint management system built with Next.js, MongoDB,Cloudinary and Tailwind CSS. With features like user authentication, complaint submission, and complaints dashboard for managing/deleting complaints. The system allows users to submit complaints with image description attached to their complaints if needed.",
+      "Developed a responsive real-time Messenger App using React.js and Firebase with a user-friendly Material-UI interface. Configured Firebase Firestore for instant messaging and deployed with Firebase Hosting for fast, secure access. Added dynamic features like username prompts and real-time UI updates for a smooth user experience. Ensured high performance with real-time data synchronization and an intuitive design.",
     tags: [
       {
-        name: "Next.js, Tailwind CSS",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Cloudinary",
+        name: "Material-UI",
         color: "green-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "fireStore",
         color: "pink-text-gradient",
       },
     ],
-    image: complaintManagementSystem,
-    source_code_link: "https://github.com/SWETHACS17/Complaint-Management-System",
+    image: messenger,
+    source_code_link: "https://github.com/SWETHACS17/Sea-The-Text-Messenger-App",
   },
 
    {
