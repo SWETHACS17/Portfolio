@@ -44,7 +44,7 @@ import ymi from "./company/ymi.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mazegame  from "./mazegame.png";
-import complaintManagementSystem from "./complaintmanagementSystem.png";
+import complaintManagementSystem from "./complaintManagementSystem.png";
 import messenger from "./messenger.jpeg";
 import supplychainmanagement from "./supplychainmanagement.jpg";
 import treasureHuntMaze from "./treasureHuntMaze.png";
