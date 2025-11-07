@@ -36,9 +36,12 @@ import {
   messenger,
   complaintManagementSystem,
   threejs,
-  meta,
-  shopify,
-  tesla,
+  ymi,
+  treasureHuntMaze,
+  smartSensingWithEdge,
+  eventManagementSystem,
+  complaintManagementSystem,
+
 } from "../assets";
 
 export const navLinks = [
@@ -177,25 +180,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer Intern",
+    title: "Full-stack Developer Intern",
     company_name: "Young Mynds Infotech",
-    icon: black,
-    iconBg: "#383E56",
+    icon: ymi,
+    iconBg: "#ffffff",
     date: "May 2025 - Jun 2025",
     points: [
       "Led a team of three to design a scalable e-commerce platform for SMB Naturals, transitioning from WhatsApp-based orders to acomplete online storefront using Next.js, Firebase, Stripe, Cloudinary, and Google Auth.",
-      "Developed the platform end-to-end with three distinct dashboards—user, admin, and super-admin—featuring role-basedcontrols, product and order handling, promotional offer modules, integrated payments, and courier-based delivery pricing logic."
+      "Developed the platform end-to-end with three distinct dashboards—user, admin, and super-admin—featuring role-basedcontrols, product and order handling, promotional offer modules, integrated payments, and courier-based delivery pricing logic.",
+      "Co-led a team of 4 to develop a modular e-commerce platform for SMB-Naturals, an organic products brand transitioning from WhatsApp orders to a fully online store using Next.js, Firebase, Stripe, Cloudinary, and Google Auth.",
+      "Built the system end-to-end with user, admin, and super-admin panels; implemented role-based access, product and order management, promotional offers to boost sales, online payments, and delivery cost calculation using courier-based pricing logic.Thus improving overall system reliability and performance.",
     ],
   },
+
   {
+  
     title: "Software Developer Intern",
     company_name: "MetatronCube Software Solutions",
     icon: metatroncube,
     iconBg: "#ffffff",
     date: "Apr 2025 - May 2025",
+    date: "Apr 2025 - May 2025",
     points: [
       "Migrated the company’s academy landing page from WordPress to a responsive Next.js app with SCSS, reducing hosting costsby 55% and improving performance.",
       "Debugged layout issues using Chrome DevTools and console logs, collaborated using GitHub with modern React/Next.js workflows.",
+      "Migrated the company’s academy landing page from WordPress to a responsive Next.js app with SCSS, reducing hosting costs by 55% and improving performance.",
+      "Debugged layout issues using Chrome DevTools, and collaborated via GitHub following modern Next.js workflows.",
     ],
   },
   {
@@ -204,27 +214,15 @@ const experiences = [
     icon: zidio,
     iconBg: "#ffffff",
     date: "Feb 2025 - May 2025",
+    date: "feb 2025 - Apr 2025",
     points: [
       "Gaining expertise in full-stack development by improving skills in frontend, backend technologies, and database management.",
       "Developing responsive and scalable web applications by following best practices, optimizing performance, and ensuring a smooth user experience.",
+      "Gained expertise in full-stack development (MERN) by improving skills in frontend, backend technologies, and database management.",
+      "Developed responsive and scalable web applications by following best practices, optimizing performance, and ensuring a smooth user experience.",
     ],
   },
 
-/*
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  */
 ];
 
 
@@ -260,25 +258,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Supply Chain Management",
+    name: "Anokha Event Proposal Management App",
     description:
-      "Designed and implemented a graph data structure for supply chain modeling. Developed traversal methods to optimize routes and improve efficiency. Enhanced decision-making with advanced network analysis. Optimized costs and ensured smooth operations.",
+      "Developed a proposal management platform built for Anokha 2026 Techfest, featuring structured role-based access (Users, Reviewers – L0, L1, L2, and Admins) and integrated messaging between proposers and reviewers.Enhanced usability and streamlined multi-level review workflows, which will result in a 40% increase in proposal submissions and significantly improving the experience for both reviewers and administrators.",
     tags: [
       {
-        name: "Python",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Data Structures",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "Graph Algorithms",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: supplychainmanagement,
-    source_code_link: "https://github.com/SWETHACS17/DSA/tree/main",
+    image: eventManagementSystem,
+    source_code_link: "https://github.com/SWETHACS17/event-proposal-app",
   },
    {
     name: "Treasure-Hunt-Maze",
@@ -301,9 +299,8 @@ const projects = [
     image: mazegame,
     source_code_link: "https://github.com/SWETHACS17/Treasure-Hunt-Maze",
   },
-  
-   {
-    name: "Sea_The_Text",
+  {
+    name: "Messenger App Sea_The_Text",
     description:
       "Developed a responsive real-time Messenger App using React.js and Firebase with a user-friendly Material-UI interface. Configured Firebase Firestore for instant messaging and deployed with Firebase Hosting for fast, secure access. Added dynamic features like username prompts and real-time UI updates for a smooth user experience. Ensured high performance with real-time data synchronization and an intuitive design.",
     tags: [
@@ -323,6 +320,7 @@ const projects = [
     image: messenger,
     source_code_link: "https://github.com/SWETHACS17/Sea-The-Text-Messenger-App",
   },
+
     {
     name: "Complaint-Management-System",
     description:
@@ -344,17 +342,86 @@ const projects = [
     image: complaintManagementSystem,
     source_code_link: "https://github.com/SWETHACS17/Complaint-Management-System",
   },
+
    {
-    name: "Event Proposal Management App",
+    name: "Smart Sensing with Edge Computing",
+    description:
+      "This app is built with Next.js for frontend. It shows real-time environment data(temperature) that comes from sensors connected to the STM32F401 board.Shows live sensor data by getting it from the backend also shows a graph to help you understand the data. I used Axios for talking to backend APIs. STM32 board talks to the BME280 sensor to get data. It sends this data to your backend using UART.The backend saves the data in a database.",
+    tags: [
+      {
+        name: "Cloudinary",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextAuth.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smartSensingWithEdge,
+    source_code_link: "https://github.com/SWETHACS17/Smart_Sensing_with_Edge_Computing-FRONTEND",
+  },
+
+  {
+    name: "Supply Chain Management",
+    description:
+      "Designed and implemented a graph data structure for supply chain modeling. Used best traversal methods to optimize routes and improve efficiency. Enhanced decision-making with advanced network analysis. Optimized the travel cost, ensured smooth operations.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Structures",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Graph Algorithms",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: supplychainmanagement,
+    source_code_link: "https://github.com/SWETHACS17/DSA/tree/main",
+  },
+  
+   {
+    name: "Complaint Management System",
+    description:
+      "This is a simple but useful complaint management system built with Next.js, MongoDB,Cloudinary and Tailwind CSS. Where Users can authentication (login/register), Submit complaints with title, description, and optional photo, View the list of submitted complaints and Delete their complaints",
+    tags: [
+      {
+        name: "Cloudinary",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextAuth.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: complaintManagementSystem,
+    source_code_link: "https://github.com/SWETHACS17/Complaint-Management-System",
+  },
+
+  {
+    name: "Treasure Hunt Maze Game",
     description:
       "Led development and maintained the GitHub repository for a proposal management platform designed specifically for Anokha 2025 Techfest, featuring structured role-based access for Users, Reviewers (L0, L1, L2) and Admins. Enhanced usability and streamlined multi-level review, resulting in a 40% increase in proposal submissions and significantly improving the experience for reviewers and admins.",
     tags: [
       {
         name: "Next.js , Tailwind CSS",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
         name: "shadcn",
+        name: "Pygame",
         color: "green-text-gradient",
       },
       {
@@ -364,7 +431,11 @@ const projects = [
     ],
     image: complaintManagementSystem,
     source_code_link: "https://github.com/SWETHACS17/event-proposal-app",
+    image: treasureHuntMaze, 
+    source_code_link: "https://github.com/SWETHACS17/Treasure-Hunt-Maze",
   },
+
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

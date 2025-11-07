@@ -40,12 +40,17 @@ import black from "./company/black.png";
 import carrent from "./carrent.png";
 import metatroncube from "./company/metatroncube.jpeg";
 import zidio from "./company/zidio.jpeg";
+import ymi from "./company/ymi.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mazegame  from "./mazegame.png";
 import complaintManagementSystem from "./complaintmanagementSystem.png";
 import messenger from "./messenger.jpeg";
 import supplychainmanagement from "./supplychainmanagement.jpg";
+import treasureHuntMaze from "./treasureHuntMaze.png";
+import smartSensingWithEdge from "./smartSensingWithEdge.png";
+import eventManagementSystem from "./eventManagementSystem.png";
+import complaintManagementSystem from "./complaintManagementSystem.png";
 
 export {
   logo,
@@ -80,9 +85,14 @@ export {
   Codeblocks,
   Canva,
   supplychainmanagement,
+  treasureHuntMaze,
+  smartSensingWithEdge,
+  eventManagementSystem,
+  complaintManagementSystem,
   black,
   metatroncube,
   zidio,
+  ymi,
   starbucks,
   carrent,
   jobit,
@@ -94,4 +104,5 @@ export {
   meta,
   shopify,
   tesla,
+  
 };
